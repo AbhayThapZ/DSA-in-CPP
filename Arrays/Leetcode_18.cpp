@@ -5,7 +5,7 @@
 using namespace std;
 
 class Solution1
-{
+{//Time Complexity:O(n^4) ,Space Complexity:O(1)
 public:
     vector<vector<int>> fourSum(vector<int> &nums, int target)
     {
@@ -44,7 +44,7 @@ public:
 };
 
 class Solution2
-{
+{//Time Complexity:O(n^3) ,Space Complexity:O(n)
 public:
     vector<vector<int>> fourSum(vector<int> &nums, int target)
     {
@@ -85,7 +85,7 @@ public:
 };
 
 class Solution3
-{
+{//Time Complexity:O(n^3) ,Space Complexity:O(1)
 public:
     vector<vector<int>> fourSum(vector<int> &nums, int target)
     {
